@@ -1,0 +1,18 @@
+.scrolling-text {
+    overflow-y: scroll;
+}
+
+.card {
+    height: 250px !important;
+}
+
+img {
+    height: 500px !important;
+}
+
+@media screen and (max-width: 1440px) {
+    .card {
+      width: 100%;
+      max-width: none;
+    }
+}
